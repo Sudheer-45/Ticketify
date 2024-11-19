@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light background color */
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ff6347; /* Vibrant Tomato color */
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa500; /* Orange for subtitles */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e90ff; /* Dodger Blue */
+  padding: 10px 20px;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar-links a:hover {
+  color: #ff6347; /* Tomato hover color */
+}
+
+/* Wallet Styles */
+.navbar-wallet {
+  position: relative;
+  padding-right: 30px;
+
+}
+
+.wallet-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.wallet-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-dropdown.show {
+  display: block;
+}
+
+.wallet-dropdown button {
+  background-color: #32cd32;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wallet-dropdown button:hover {
+  background-color: #228b22; /* Darker green hover */
+}
+
+/* Carousel Styles */
+.carousel {
+  margin-top: 2px;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.carousel-image {
+  min-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.carousel-image:hover {
+  transform: scale(1.05); /* Zoom on hover */
+}
+
+/* Articles Section */
+.articles {
+  padding: 50px 20px;
+  background-color: #ffefd5; /* Light Peach */
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.article-card {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-10px); /* Lift up effect on hover */
+}
+
+.article-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Museums Section */
+.museums {
+  padding: 50px 20px;
+  background-color: #f0fff0; /* Light green background */
+}
+
+.museum-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.museum-card {
+  width: 30%;
+  margin: 15px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.museum-card:hover {
+  transform: translateY(-10px);
+}
+
+.museum-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.museum-info h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa500;
+}
+
+.museum-info p {
+  color: #808080;
+}
+
+.museum-info p.price {
+  font-weight: bold;
+  color: #32cd32;
+}

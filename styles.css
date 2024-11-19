@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+    
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .navbar-wallet {
+    position: relative;
+  }
+  
+  .wallet-icon {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .wallet-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .wallet-dropdown.show {
+    display: block;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    margin-top: 80px;
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-image {
+    min-width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Articles Section */
+  .articles {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .article-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .article-card {
+    width: 30%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Museums Section */
+  .museums {
+    padding: 50px 20px;
+  }
+  
+  .museum-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .museum-card {
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .museum-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    src:local('item.jpeg');
+  }
+  
+  .museum-info {
+    text-align: left;
+  }
+  

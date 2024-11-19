@@ -1,0 +1,59 @@
+/* src/Wallet.css */
+
+.wallet-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .wallet-icon {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .wallet-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .wallet-img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .wallet-dropdown p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .add-money-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-money-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-money-btn:hover {
+    background-color: #0056b3;
+  }
+  

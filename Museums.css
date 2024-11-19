@@ -1,0 +1,55 @@
+/* src/Museums.css */
+
+.museums {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .museums h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .museum-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .museum-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .museum-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .museum-info {
+    padding: 15px;
+  }
+  
+  .museum-info h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .museum-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
